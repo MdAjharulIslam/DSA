@@ -54,7 +54,7 @@ struct Node *deleteAtLast(struct Node *head) {
     
     if (head->next == NULL) {
         free(head);
-        return NULL; // Only one element
+        return head; // Only one element
     }
     
     struct Node *p = head;
