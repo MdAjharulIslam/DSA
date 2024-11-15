@@ -3,7 +3,13 @@ using namespace std;
 
 int main() {
 
-    /* Condition 1: Collision Resolution Techniques in Hashing
+    /*
+    k is the key you are inserting or looking for in the hash table.
+    m is the size of the hash table, or the number of buckets it has.
+    h(k) is the hash function that calculates the index for the key k.
+    h'(k) is the modified hash function used in collision resolution techniques to find new positions in the table if a collision occurs.
+    
+    Condition 1: Collision Resolution Techniques in Hashing
 
     Chaining:
     h(k) = k % m  // Hash function: Map key k to a table of size m
